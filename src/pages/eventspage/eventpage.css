@@ -1,0 +1,48 @@
+.eventspage__pageWrapper {
+    width: 100%;
+    min-height: 667px;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eventspage__page-heading {
+    font-size: 32px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 37.28px;
+    color: var(--text-color-heading);
+    font-family: 'Sansita One', sans-serif;
+}
+
+.eventspage__search-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eventspage__input {
+    width: 100%;
+    border: none;
+    height: 40px;
+    margin: 1rem 0;
+    padding: .5rem;
+    border-radius: 5px;
+    color: var(--base-white-color);
+    background: var(--bg-input-field);
+}
+
+/* Får se om det behövs en knapp eller inte i eventpage */
+/* .eventCard__btn {
+    border: none;
+    margin-top: 2rem;
+    font-weight: 500;
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    color: var(--location-text);
+    background: var(--primary-btn-bg);
+    font-family: 'Fira Sans', sans-serif;
+} */

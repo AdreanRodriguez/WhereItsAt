@@ -1,0 +1,80 @@
+.infobox__price-container {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    border: 2px solid var(--text-color-heading);
+    display: flex;
+    flex-direction: column;
+}
+
+.infobox__total-price {
+    font-size: 32px;
+    line-height: 38.4px;
+    color: var(--base-white-color);
+    text-shadow: var(--artist-dropshadow-styling);
+    font-family: 'Fira Sans', sans-serif;
+    padding: 1rem;
+}
+
+.infobox__center-count { text-align: center; }
+
+.infobox__order-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.infobox__artist {
+    font-size: 24px;
+    font-weight: 400;
+    text-shadow: none;
+    line-height: 27.96px;
+    font-family: 'Sansita One';
+    color: var(--text-color-heading);
+}
+
+.infobox__when-to-text {
+    font-size: 14px;
+    font-weight: 400;
+    text-shadow: none;
+    line-height: 16.8px;
+    font-family: 'Fira Sans', sans-serif;
+    color: var(--price-color);
+}
+
+.infobox__operator-wrapper {
+    display: flex;
+    border-top: 1px solid var(--text-color-heading);
+}
+
+.infobox__operators-minus {
+    border: none;
+    border-right: 1px solid var(--text-color-heading);
+    flex: 1;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infobox__operators-plus {
+    border: none;
+    border-left: 1px solid var(--text-color-heading);
+    flex: 1;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infobox__ticket-amount {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    line-height: 29.2px;
+    justify-content: center;
+    color: var(--base-white-color);
+    font-family: 'Fira Sans', sans-serif;
+}

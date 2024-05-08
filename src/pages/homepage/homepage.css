@@ -1,0 +1,26 @@
+.homepage__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 375px;
+    min-height: 601px;
+    
+}
+
+.homepage__link { text-decoration: none; }
+
+.homepage__heading {
+    font-size: 2rem;
+    line-height: 37.28px;
+    color: var(--text-color-heading);
+    font-family: 'Sansita One', sans-serif;
+}
+
+.homepage__text {
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--base-white-color);
+    font-family: 'Fira Sans', sans-serif;
+}

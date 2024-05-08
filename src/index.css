@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Sansita One';
+  src: url(./assets/SansitaOne.ttf) format('truetype');
+}
+
+
+:root {
+  --faded-black-04: rgba(0, 0, 0, 0.4);
+  --faded-black-06: rgba(0, 0, 0, 0.6);
+  --faded-black-07: rgba(0, 0, 0, 0.7);
+  --time-color: rgba(208, 208, 208, 1);
+  --price-color: rgba(55, 174, 171, 1);
+  --primary-bg-page: rgba(35, 31, 66, 1);
+  --primary-btn-bg: rgba(55, 174, 171, 1);
+  --border-color: rgba(255, 255, 255, 0.3);
+  --location-text: rgba(255, 255, 255, 0.8);
+  --bg-input-field: rgba(255, 255, 255, 0.1);
+  --base-white-color: rgba(255, 255, 255, 1);
+  --text-color-heading: rgba(245, 107, 154, 1);
+  --artist-dropshadow-styling: 1px 1px 0 rgba(245, 107, 154, 1);
+  --bg-gradient: linear-gradient(180deg, rgba(245, 107, 154, 1) 0%, rgba(35, 31, 66, 0.01) 50%);
+  --gradient: linear-gradient(180deg, #F56B9A 0%, rgba(177, 52, 254, 0) 50%);
+
+
+}
+
+
+/* 
+--primary-btn-bgolor: rgba(55, 174, 171, 1);
+--text-color-time: rgba(208, 208, 208, 1);
+--text-color-price: rgba(55, 174, 171, 1);
+--border-color: rgba(255, 255, 255, 0.3);
+--text-color-location: rgba(255, 255, 255, 0.8);
+--bg-input-field: rgba(255, 255, 255, 0.1);
+--text-color-heading: rgba(245, 107, 154, 1);
+--barcode-font: "Libre Barcode 128 Text", system-ui;
+--artist-text-shadow: 1px 1px 0 rgba(245, 107, 154, 1);
+--bg-gradient: linear-gradient(180deg, rgba(245, 107, 154, 1) 0%, rgba(35, 31, 66, 0.01) 50%);
+--gradient: linear-gradient(180deg, #F56B9A 0%, rgba(177, 52, 254, 0) 50%); 
+*/

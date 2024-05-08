@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128&display=swap');
+
+
+.tickets__container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.34);
+}
+
+
+.tickets__what-container {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 3px 3px 0 0;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px dotted var(--faded-black-04);
+}
+
+.tickets__what-heading {
+    font-size: 26px;
+    margin-bottom: 1rem;
+    line-height: 30.29px;
+    color: var(--text-color-heading);
+    font-family: 'Sansita One', sans-serif;
+}
+
+.tickets__where-container {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background: rgba(247, 247, 247, 1);
+}
+
+
+.tickets__where-heading {
+    font-size: 18px;
+    line-height: 21.6px;
+    padding-bottom: 3.75rem;
+    color: var(--faded-black-07);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.tickets__when-from-to-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(240, 240, 240, 1);
+    border-top: 1px dotted var(--faded-black-04);
+    border-bottom: 1px dotted var(--faded-black-04);
+}
+
+.tickets__when-from-to-container time:nth-child(2) {
+    border-left: 1px dotted var(--faded-black-04);
+    border-right: 1px dotted var(--faded-black-04);
+}
+
+.tickets__date-time-box {
+    flex: 1;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.tickets__date-time {
+    font-size: 18px;
+    padding-top: .25rem;
+    line-height: 21.6px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.tickets__info-container {
+    width: 100%;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    background-color: rgba(232, 232, 232, 1);
+}
+
+.tickets__info__seat-section {
+    font-size: 12px;
+    line-height: 14.4px;
+    padding-top: .25rem;
+    padding-bottom: 1rem;
+    color: var(--faded-black-06);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.tickets__barcode-container {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    border-radius: 0 0 3px 3px;
+    background-color: rgba(224, 224, 224, 1);
+}
+
+.tickets__barcode {
+    font-size: 101px;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Libre Barcode 128';
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.tickets__barcode-clarification {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 14.4px;
+    letter-spacing: 0.3em;
+    color: rgba(0, 0, 0, 0.4);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.tickets__info-text {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700;
+    padding-bottom: .25rem;
+    color: var(--faded-black-04);
+    font-family: 'Fira Sans', sans-serif;
+}

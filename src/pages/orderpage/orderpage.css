@@ -1,0 +1,65 @@
+.orderpage-container {
+    width: 100%;
+    display: flex;
+    color: white;
+    padding: 2rem;
+    min-height: 601px;
+    flex-direction: column;
+    background: var(--primary-bg-page);
+}
+
+.orderpage__heading {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 37.28px;
+    color: var(--text-color-heading);
+    font-family: 'Sansita One', sans-serif;
+}
+
+.orderpage__total-text {
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    line-height: 22.8px;
+    margin-bottom: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.orderpage__total-price {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 38.4px;
+    margin-bottom: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+    color: var(--base-white-color);
+    text-shadow: var(--artist-dropshadow-styling);
+}
+
+.orderpage__link { margin: 0 auto; }
+
+.orderpage__link-btn {
+    border: none;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 1rem 4rem;
+    line-height: 26.4px;
+    background: var(--primary-btn-bg);
+    color: var(--base-white-color);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.orderpage__alert-msg {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 40.78px;
+    color: var(--text-color-heading);
+    font-family: 'Sansita One', sans-serif;
+}

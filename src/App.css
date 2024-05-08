@@ -1,0 +1,13 @@
+
+
+.app {
+  max-width: 500px;
+  margin: 0 auto;
+  min-height: 667px
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--primary-bg-page);
+}

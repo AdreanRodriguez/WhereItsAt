@@ -1,0 +1,32 @@
+.navigation__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    list-style: none;
+    position: sticky;
+    background-color: var(--text-color-heading);
+}
+
+.navigation__link { text-decoration: none; }
+
+.navigation__icon {
+    border: none;
+    display: flex;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 0 1rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--location-text);
+    background-color: var(--text-color-heading);
+}
+
+.navigation__icon:hover { 
+    transform: scale(1.2);
+    transition: transform 0.4s ease;
+}
