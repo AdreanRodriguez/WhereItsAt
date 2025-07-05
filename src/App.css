@@ -3,11 +3,12 @@
 .app {
   max-width: 500px;
   margin: 0 auto;
-  min-height: 667px
-  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  min-height: 100vh;
   background-color: var(--primary-bg-page);
+  overflow: hidden;
+  position: relative;
 }
